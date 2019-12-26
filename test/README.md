@@ -1,5 +1,6 @@
 - controller 테스트
-    '''
+
+    ```
     require 'test_helper'
 
     class WelcomeControllerTest < ActionDispatch::IntegrationTest
@@ -9,10 +10,10 @@
     end
 
     end
-    '''
+    ```
 
 - model 테스트
-    '''
+    ```
     require 'test_helper'
 
     class ArticleTest < ActiveSupport::TestCase
@@ -37,6 +38,6 @@
         assert_kind_of Article, Article.new
     end
     end
-    '''
+    ```
 - service 테스트
     ?
