@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+* [plugin Test](https://rubykr.github.io/rails_guides/plugins.html)

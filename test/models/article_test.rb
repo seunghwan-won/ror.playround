@@ -20,4 +20,8 @@ class ArticleTest < ActiveSupport::TestCase
   test "find all by name" do
     assert_equal 2, articles(:one, :two).length
   end
+
+  def test_article
+    assert_kind_of Article, Article.new
+  end
 end

@@ -1,0 +1,7 @@
+sqlite:
+  adapter: sqlite
+  database: vendor/plugins/yaffle/test/yaffle_plugin.sqlite.db
+
+sqlite3:
+  adapter: sqlite3
+  database: vendor/plugins/yaffle/test/yaffle_plugin.sqlite3.db
