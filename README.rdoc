@@ -1,8 +1,4 @@
-= Redmine
-
-Redmine is a flexible project management web application written using Ruby on Rails framework.
-
-More details can be found in the doc directory or on the official website http://www.redmine.org
+# Redmine
 
 1. config/database.yml 파일 만들기
 2. (rails 5.2.x 이상이면) config/credentials.yml.enc, config/master.key 파일 만들기
