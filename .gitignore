@@ -24,6 +24,7 @@
 /log/mongrel_debug
 /plugins/*
 !/plugins/README
+!/plugins/shift_manage
 /public/dispatch.*
 /public/plugin_assets/*
 /public/themes/*

@@ -1,0 +1,5 @@
+<h2>TimeLogController#create</h2>
+
+<% @times.each do |time| %>
+  <%= time.check_in_time.strftime('%Y.%m.%d %H:%M:%S') %> </br>
+<% end %>
