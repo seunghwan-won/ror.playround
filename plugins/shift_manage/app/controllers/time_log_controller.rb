@@ -6,18 +6,18 @@ class TimeLogController < ApplicationController
     time = Attendances.new
     time.check_in_time = Time.current
     time.save
-    #redirect_to :action => 'index'
+    redirect_to :action => 'index'
   end
 
   def delete
     Attendances.last.delete
-    #redirect_to :action => 'index'
+    redirect_to :action => 'index'
   end
 
   def update
     time = Attendances.first
     time.check_in_time = Time.current
     time.save
-    #redirect_to :action => 'index'
+    redirect_to :action => 'index'
   end
 end
